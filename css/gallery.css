@@ -1,0 +1,1908 @@
+@font-face{
+    src: url(../fonts/Merriweather-Light.ttf);
+    font-family: Merriweather;
+}
+@font-face{
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+    font-family: Montserrat;
+}
+@font-face{
+    src: url(../fonts/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/*header*/
+
+
+header{
+    text-align: center;
+    height: 20vh;
+
+}
+
+.home{
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    
+}
+.home:hover{
+    color:violet;
+}
+
+.about{
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+}
+.about:hover{
+    color:violet;
+}
+
+.contact{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+}
+.contact:hover{
+    color:violet;
+}
+.gallery{
+    padding-right:30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: violet;
+}
+
+
+.logo{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Sacramento;
+    margin: 5px;
+    padding-top: 1rem;
+}
+
+.navbar{
+    padding-top: 2px;
+    padding-bottom: 6px;
+    width: 100%;
+    height: 120px;
+    background-color:white;
+    color: black;
+    position: fixed;
+    border-bottom: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+/*section*/
+section{
+    height: 500vh;
+    background-image: url(../img/art.jpg);
+    background-size: cover;
+}
+
+/*line1*/
+.line1{
+    display: inline-block;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    object-fit: cover;
+}
+
+.arman{
+    width: 20rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag{
+    width: 40%;
+    height: 73%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content{
+    padding-top: 20rem;
+}
+.arman1{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open{
+    display:inline-block;
+    margin-left: 111px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 8rem;
+    padding-right:8rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op:target .parag{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.sir{
+    width: 320px;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop2{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag2{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content2{
+    padding-top: 20rem;
+}
+.sir2{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open2{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7.8rem;
+    padding-right:7.8rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op2:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op2:target .parag2{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.vendex{
+    width: 317px;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop3{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag3{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content3{
+    padding-top: 20rem;
+}
+.vendex3{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open3{
+    display:inline-block;
+    margin-left: 79px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7rem;
+    padding-right:7rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op3:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op3:target .parag3{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/*line2*/
+.line2{
+    display: inline-block;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+.aira{
+    width: 20rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop4{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag4{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content4{
+    padding-top: 20rem;
+}
+.aira4{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open4{
+    display:inline-block;
+    margin-left: 111px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 6.3rem;
+    padding-right:6.4rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op4:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op4:target .parag4{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.carlo{
+    width: 320px;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop5{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag5{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content5{
+    padding-top: 20rem;
+}
+.carlo5{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open5{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right:2.8rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op5:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op5:target .parag5{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.cherin{
+    width: 20rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop6{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag6{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content6{
+    padding-top: 20rem;
+}
+.cherin6{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open6{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7.5rem;
+    padding-right:7.5rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op6:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op6:target .parag6{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*line3*/
+.line3{
+    display: inline-block;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.jastene{
+    width: 20rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop7{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 160%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag7{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content7{
+    padding-top: 20rem;
+}
+.jastene7{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open7{
+    display:inline-block;
+    margin-left: 111px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 6.2rem;
+    padding-right:6.2rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op7:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op7:target .parag7{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.jenny{
+    width: 320px;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop8{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 160%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag8{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content8{
+    padding-top: 20rem;
+}
+.jenny8{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open8{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 8.5rem;
+    padding-right:8.5rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op8:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op8:target .parag8{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.jessica{
+    width: 20rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop9{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 160%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag9{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content9{
+    padding-top: 20rem;
+}
+.jessica9{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open9{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7rem;
+    padding-right:7rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op9:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op9:target .parag9{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*line4*/
+.line4{
+    display: inline-block;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.jona{
+    width: 20rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop10{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 250%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag10{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content10{
+    padding-top: 20rem;
+}
+.jona10{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open10{
+    display:inline-block;
+    margin-left: 111px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7rem;
+    padding-right:7.2rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op10:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op10:target .parag10{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.jovi{
+    width: 320px;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop11{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 250;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag11{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content11{
+    padding-top: 20rem;
+}
+.jovi11{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open11{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 8.8rem;
+    padding-right:8.7rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op11:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op11:target .parag11{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.kim{
+    width: 20rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop12{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 250;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag12{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content12{
+    padding-top: 20rem;
+}
+.kim12{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open12{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7rem;
+    padding-right:7rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op12:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op12:target .parag12{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*line5*/
+.line5{
+    display: inline-block;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.kris{
+    width: 20rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop13{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 290%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag13{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content13{
+    padding-top: 20rem;
+}
+.kris13{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open13{
+    display:inline-block;
+    margin-left: 112px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7rem;
+    padding-right:6.9rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op13:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op13:target .parag13{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.lemor{
+    width: 320px;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop14{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 290;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag14{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content14{
+    padding-top: 20rem;
+}
+.lemor14{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open14{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5.6rem;
+    padding-right:5.5rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op14:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op14:target .parag14{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.lorenz{
+    width: 20rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop15{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 290%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag15{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content15{
+    padding-top: 20rem;
+}
+.lorenz15{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open15{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 8.2rem;
+    padding-right:8.1rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op15:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op15:target .parag15{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*line6*/
+.line6{
+    display: inline-block;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.maricar{
+    width: 20rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop16{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 360%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag16{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content16{
+    padding-top: 20rem;
+}
+.maricar16{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open16{
+    display:inline-block;
+    margin-left: 111px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5.9rem;
+    padding-right:5.9rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op16:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op16:target .parag16{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.gemma{
+    width: 320px;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop17{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 360%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag17{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content17{
+    padding-top: 20rem;
+}
+.gemma17{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open17{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 9.1rem;
+    padding-right:9.1rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op17:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op17:target .parag17{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.reyv{
+    width: 20rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop18{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 360%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag18{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content18{
+    padding-top: 20rem;
+}
+.reyv18{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open18{
+    display:inline-block;
+    margin-left: 81px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 8.1rem;
+    padding-right:8.1rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op18:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op18:target .parag18{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*line7*/
+.line7{
+    display: inline-block;
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.rhoy{
+    width: 20rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop19{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 440%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag19{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content19{
+    padding-top: 20rem;
+}
+.rhoy19{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open19{
+    display:inline-block;
+    margin-left: 111px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5.3rem;
+    padding-right:5.2rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op19:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op19:target .parag19{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.jinang{
+    width: 320px;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop20{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 440%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag20{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content20{
+    padding-top: 20rem;
+}
+.jinang20{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open20{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left:5.7rem;
+    padding-right:5.7rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op20:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op20:target .parag20{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.bryll{
+    width: 20rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop21{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 440%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag21{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color:white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content21{
+    padding-top: 20rem;
+}
+.bryll21{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open21{
+    display:inline-block;
+    margin-left: 80px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 6.8rem;
+    padding-right:6.8rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op21:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op21:target .parag21{
+    opacity: 1;
+    visibility: visible;
+}
+
+/*line8*/
+.line8{
+    display: inline-block;
+    padding-top: 5rem;
+    padding-left: 7rem;
+}
+
+.spencer{
+    width: 20rem;
+    padding-right: 5rem;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.pop22{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 490%;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.parag22{
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+}
+.content22{
+    padding-top: 20rem;
+}
+.spencer22{
+    position: absolute;
+    left: 9rem;
+    width: 320px;
+}
+
+.open22{
+    display:inline-block;
+    margin-left: 111px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7.4rem;
+    padding-right:7.3rem;
+    font-family: Montserrat;
+    font-weight: 900;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.close{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+#op22:target{
+    opacity: 1;
+    visibility: visible;
+}
+#op22:target .parag22{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*footer*/
+
+footer{
+    height: 20vh;
+    background-color: rgb(228, 129, 215);
+    padding-bottom: 1rem;
+}
+
+.icon{
+    padding: 20px;
+    text-align: center;
+}
+
+.insta{
+    width: 40px;
+    padding: 5px;
+}
+.twitter{
+    width: 40px;
+    padding: 5px;
+}
+
+.facebook{
+    width: 40px;
+    padding: 5px;
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+}

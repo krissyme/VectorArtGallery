@@ -1,0 +1,201 @@
+@font-face{
+    src: url(../fonts/Merriweather-Light.ttf);
+    font-family: Merriweather;
+}
+@font-face{
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+    font-family: Montserrat;
+}
+@font-face{
+    src: url(../fonts/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+
+header{
+    text-align: center;
+    height: 20vh;
+
+}
+
+.home{
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    
+}
+.home:hover{
+    color:violet;
+}
+
+.about{
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+}
+.about:hover{
+    color:violet;
+}
+
+.contact{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: violet;
+}
+
+.gallery{
+    padding-right:30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+}
+.gallery:hover{
+    color:violet;
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Sacramento;
+    margin: 5px;
+    padding-top: 1rem;
+}
+
+.navbar{
+    padding-top: 2px;
+    padding-bottom: 6px;
+    width: 100%;
+    height: 120px;
+    background-color:white;
+    color: black;
+    position: fixed;
+    border-bottom: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+/*section*/
+
+section{
+    background-image: url(../img/art.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.section-content{
+    text-align: center;
+}
+
+.content{
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 2rem;
+    padding-top: 3rem;
+}
+
+/*form*/
+.form-control{
+    font-family: Montserrat;
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: violet;
+    border-color: transparent;
+    font-size: 20;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 50px;
+}
+ 
+form .submit:hover{
+    background-color: rgb(231, 107, 231);
+    cursor: pointer;
+}
+
+.end{
+    font-family: Montserrat;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+
+/*footer*/
+
+footer{
+    height: 20vh;
+    background-color: rgb(228, 129, 215);
+    padding-bottom: 1rem;
+}
+
+.icon{
+    padding: 20px;
+    text-align: center;
+}
+
+.insta{
+    width: 40px;
+    padding: 5px;
+    border-radius: 100%;
+}
+.twitter{
+    width: 40px;
+    padding: 5px;
+}
+
+.facebook{
+    width: 40px;
+    padding: 5px;
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+
+
+.icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.icons ul{
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+}
+
+.icons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 px 10px;
+    border-radius: 100%;
+    background: #32cd32;
+}
